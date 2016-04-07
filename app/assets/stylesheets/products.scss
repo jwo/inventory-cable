@@ -1,19 +1,26 @@
 .products {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+
+  @media (min-width:500px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+  }
+
   .product {
-    flex: 1;
     justify-content: center;
     text-align: center;
     border: 1px solid #ccc;
     padding: 0.25rem;
     margin: 1rem;
     border-radius: 5px;
-
     img {
       width: 300px;
       height: 300px;
     }
+
+
 
     ul {
       margin: 0;
@@ -43,4 +50,13 @@
   text-decoration: none;
   font-weight: bold;
   color: white;
+}
+
+@media (max-width:500px) {
+
+
+  .products .product img {
+    width: 500px;
+    height: 500px;
+  }
 }
