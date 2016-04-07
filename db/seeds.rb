@@ -7,6 +7,6 @@
     p.name = Faker::Commerce.product_name
     p.price = Faker::Commerce.price
     p.inventory = (1..5).to_a.sample
-    p.photo = "http://placeimg.com/500/500/tech"
+    p.photo = "https://placeimg.com/500/500/tech"
   end
 end
