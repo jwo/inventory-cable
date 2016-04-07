@@ -52,6 +52,8 @@ GEM
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.6.0)
+    faker (1.6.3)
+      i18n (~> 0.5)
     ffi (1.9.10)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
@@ -81,6 +83,7 @@ GEM
     nio4r (1.2.1)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    normalize-rails (4.0.0)
     pg (0.18.4)
     puma (3.3.0)
     rack (2.0.0.alpha)
@@ -159,9 +162,11 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  faker
   jbuilder (~> 2.0)
   jquery-rails
   listen (~> 3.0.5)
+  normalize-rails
   pg (~> 0.18)
   puma
   rails (>= 5.0.0.beta3, < 5.1)

@@ -1,0 +1,14 @@
+<h1>Products</h1>
+
+<div class="products">
+  <% @products.each do |product| %>
+    <div class="product" data-product-id="<%= product.id %>">
+      <h2><%= product.name %></h2>
+      <%= image_tag(product.photo + "?#{rand(1000)}") %>
+      <ul>
+        <li><%= number_to_currency product.price %></li>
+        <li><%= pluralize product.inventory, 'item' %> left!</li>
+      </ul>
+    </div>
+  <% end %>
+</div>
