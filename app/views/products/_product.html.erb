@@ -5,4 +5,7 @@
     <li><%= number_to_currency product.price %></li>
     <li><%= pluralize product.inventory, 'item' %> left!</li>
   </ul>
+  <div class="buy">
+    <%= link_to 'Buy 1', buy_product_path(product), remote: true, method: :post, class: 'btn' %>
+  </div>
 </div>
