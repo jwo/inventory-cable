@@ -1,24 +1,44 @@
-## README
+## Simplistic Inventory action-cable example 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails 5.0.0.beta3 simple inventory example.
 
-Things you may want to cover:
+Getting Started
+---------------
 
-* Ruby version
+1. Clone, bundle install
+1. `rails db:setup`
+1. `rails server`
+1. Open two tabs to localhost:3000
+1. Visit and "buy" an item, both tabs will be re-rendered with updated inventory
 
-* System dependencies
+TODO
+----
 
-* Configuration
+1. Add gif showing what's what
+1. Add more TODOs
 
-* Database creation
+LICENSE
+-----------
 
-* Database initialization
+MIT License
 
-* How to run the test suite
+Copyright (c) 2016 Jesse Wolgamott
 
-* Services (job queues, cache servers, search engines, etc.)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Deployment instructions
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* ...
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
