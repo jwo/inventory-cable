@@ -11,10 +11,11 @@ Getting Started
 1. Open two tabs to localhost:3000
 1. Visit and "buy" an item, both tabs will be re-rendered with updated inventory
 
+![demo.gif](demo.gif)
+
 TODO
 ----
 
-1. Add gif showing what's what
 1. Add more TODOs
 
 LICENSE
